@@ -1,6 +1,6 @@
 # Journal
 
-## October 7th, 2025 (Tuesday) [Total worked for 2
+## October 7th, 2025 (Tuesday) [Total worked for 2 hours 13 minutes]
 worked for 1 hour 3 minutes 
 
 Made the `Landing.jsx` file for a landing page for Vyona. It looks like this for now.
