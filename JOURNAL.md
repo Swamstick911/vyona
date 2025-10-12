@@ -24,3 +24,10 @@ Updates
 - Added a clicking effect in it.
 
 <img width="1915" height="893" alt="image" src="https://github.com/user-attachments/assets/1224a945-f027-4f5b-b870-f79eaa6641bb" />
+
+## October 12th, 2025
+
+Making the Component Library and working on the components here is what it looks like now
+
+
+<img width="1901" height="884" alt="image" src="https://github.com/user-attachments/assets/130a3c6b-96b3-4d4a-be4f-cc8be63494f9" />
