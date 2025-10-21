@@ -39,7 +39,7 @@ const SignUpForm = ({ embedded = false }) => {
       <div
         className={`w-full max-w-md ${
           embedded ? "p-4" : "p-8"
-        } bg-black/30 backdrop-blur-xl rounded-2xl shadow-lg transform transition-transform hover:scale-105`}
+        } bg-gradient-to-br from-purple-700 via-fuchsia-700 to-violet-700 backdrop-blur-2xl rounded-2xl shadow-lg transform transition-transform hover:scale-105`}
         style={{
           border: "1px solid rgba(255,255,255,0.1)",
           boxShadow: embedded
@@ -48,7 +48,7 @@ const SignUpForm = ({ embedded = false }) => {
         }}
       >
         <h2
-          className="text-3xl font-bold mb-2 text-center bg-gradient-to-r from-violet-400 via-fuchsia-400 to-yellow-300 bg-clip-text text-transparent"
+          className="text-black text-3xl font-bold mb-2 text-center bg-gradient-to-r from-violet-400 via-fuchsia-400 to-yellow-300 bg-clip-text text-transparent"
           style={{ fontSize: embedded ? "1rem" : "1.75rem" }}
         >
           Sign Up
@@ -61,20 +61,20 @@ const SignUpForm = ({ embedded = false }) => {
 
         <div className={`space-y-2 ${embedded ? "" : "mb-4"}`}>
           <input
-            className={`w-full px-3 py-2 rounded-xl text-white bg-black/20 placeholder-gray-400 border border-white/10 focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-white transition-all shadow-[0_0_10px_rgba(255,255,255,0.15)] ${
+            className={`w-full px-3 py-2 rounded-xl text-white bg-black/60 placeholder-gray-400 border border-white/10 focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-white transition-all shadow-[0_0_10px_rgba(255,255,255,0.15)] ${
               embedded ? "text-sm py-1" : "text-base py-3"
             }`}
             placeholder="Full Name"
           />
           <input
-            className={`w-full px-3 py-2 rounded-xl text-white bg-black/20 placeholder-gray-400 border border-white/10 focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-white transition-all shadow-[0_0_10px_rgba(255,255,255,0.15)] ${
+            className={`w-full px-3 py-2 rounded-xl text-white bg-black/60 placeholder-gray-400 border border-white/10 focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-white transition-all shadow-[0_0_10px_rgba(255,255,255,0.15)] ${
               embedded ? "text-sm py-1" : "text-base py-3"
             }`}
             placeholder="Email"
           />
           <input
             type="password"
-            className={`w-full px-3 py-2 rounded-xl text-white bg-black/20 placeholder-gray-400 border border-white/10 focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-white transition-all shadow-[0_0_10px_rgba(255,255,255,0.15)] ${
+            className={`w-full px-3 py-2 rounded-xl text-white bg-black/60 placeholder-gray-400 border border-white/10 focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-white transition-all shadow-[0_0_10px_rgba(255,255,255,0.15)] ${
               embedded ? "text-sm py-1" : "text-base py-3"
             }`}
             placeholder="Password"
@@ -87,7 +87,7 @@ const SignUpForm = ({ embedded = false }) => {
             onMouseEnter={handleHover}
             onMouseLeave={handleHoverOut}
             onClick={handleClick}
-            className={`w-full rounded-full font-semibold text-white bg-gradient-to-r from-indigo-500 via-violet-500 to-fuchsia-400 tracking-wide transition-transform ${
+            className={`border border-blue-800 w-full rounded-full font-semibold text-white bg-gradient-to-r from-indigo-500 via-violet-500 to-fuchsia-400 tracking-wide transition-transform ${
               embedded ? "py-2 text-sm" : "py-3 text-base"
             }`}
           >

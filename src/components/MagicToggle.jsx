@@ -39,7 +39,6 @@ const MagicToggle = ({ size = "md", onToggle }) => {
                 width: `${width}px`,
                 height: `${height}px`,
                 background: "rgba(139,92,246,0.25)",
-                backdropFilter: "blur(10px)",
                 border: "1px solid rgba(255,255,255,0.1)",
                 boxShadow: "0 0 15px rgba(139,92,246,0.4)",
             }}

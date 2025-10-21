@@ -18,12 +18,8 @@ const MagicCard = ({ title = "Magic Card", description = "Harness the forces of 
     <div
       ref={cardRef}
       className="relative w-72 md:w-80 p-5 rounded-xl bg-gradient-to-br from-purple-800 to-indigo-900 
-                 border-2 border-yellow-400 shadow-lg cursor-pointer overflow-hidden"
+                 shadow-lg cursor-pointer overflow-hidden"
     >
-      {/* Top corner sparkles */}
-      <div className="absolute top-2 left-2 w-3 h-3 rounded-full bg-yellow-400 animate-pulse opacity-70"></div>
-      <div className="absolute top-2 right-2 w-3 h-3 rounded-full bg-pink-400 animate-pulse opacity-70"></div>
-
       {/* Card content */}
       <h2 className="text-2xl font-bold text-yellow-300 mb-2">{title}</h2>
       <p className="text-white text-sm md:text-base">{description}</p>

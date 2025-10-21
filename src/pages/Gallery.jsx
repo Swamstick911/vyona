@@ -40,7 +40,7 @@ const Gallery = () => {
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
-        className="text-4xl md:text-5xl font-bold mb-12 bg-gradient-to-r from-violet-400 via-fuchsia-400 to-yellow-300 bg-clip-text text-transparent"
+        className="text-4xl md:text-5xl font-bold mb-12 pb-5 bg-gradient-to-r from-violet-400 via-fuchsia-400 to-yellow-300 bg-clip-text text-transparent"
       >
         Vyona Component Gallery
       </motion.h1>

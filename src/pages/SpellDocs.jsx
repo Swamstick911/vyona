@@ -138,7 +138,7 @@ const SpellDocs = () => {
         transition={{ duration: 0.6 }}
         className="w-full max-w-3xl flex flex-col items-center text-center"
       >
-        <h1 className="text-5xl md:text-6xl font-extrabold mb-4 bg-gradient-to-r from-violet-400 via-fuchsia-400 to-yellow-300 bg-clip-text text-transparent drop-shadow-[0_0_25px_rgba(255,200,255,0.3)]">
+        <h1 className="text-5xl md:text-6xl font-extrabold mb-4 pb-4 bg-gradient-to-r from-violet-400 via-fuchsia-400 to-yellow-300 bg-clip-text text-transparent drop-shadow-[0_0_25px_rgba(255,200,255,0.3)]">
           {spell.title}
         </h1>
 
